@@ -9,6 +9,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (nonatomic)int sum;
+
 
 @end
 
@@ -17,6 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    int a=5;
+    int b=10;
+    self.sum=a+b;
+    NSLog(@"result %d",self.sum);
+
 }
 
 
